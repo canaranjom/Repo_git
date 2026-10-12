@@ -15,7 +15,9 @@ app = dash.Dash(
     __name__,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
-app.title = "Dashboard energia"
+app.title = "Tablero de Control de Energía"
+# Me parece que es mejor titulo para este tablero, ya que refleja mejor su propósito y contenido. 
+# El título anterior era más genérico y no daba una idea clara de lo que se podía esperar al abrir la aplicación.
 
 server = app.server
 app.config.suppress_callback_exceptions = True
