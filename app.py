@@ -7,7 +7,9 @@ import numpy as np
 import pandas as pd
 import datetime as dt
 
-
+# Recuerda: hay que instalar las librerías necesarias para ejecutar este código, como dash, plotly y pandas. Puedes hacerlo usando pip:
+# pip install dash plotly pandas
+# Y ejecutar el script con: python app.py
 
 app = dash.Dash(
     __name__,
